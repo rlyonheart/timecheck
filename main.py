@@ -8,9 +8,10 @@ if __name__=='__main__':
 		ui = input("\n  -").lower()
 		if "help" in ui:
 			print('''ENTER
-		check (to see current date and time.)
-		exit  (to quit the program.)
-		help (for usage)''')
+		time (to see current time.)
+                date (to see current date.)
+		exit (to quit the program.)
+		help (for usage.)''')
 		elif "date" in ui:
 			print("Today's date is",today,"\n")
 		elif "time" in ui:
